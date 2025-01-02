@@ -5,6 +5,8 @@ import heroImg02 from "../images/hero-img02.jpg";
 import herovdo from "../images/hero-video.mp4";
 import worldImg from "../images/world.png";
 import Subtitle from "../shared/Subtitle";
+import SearchBar from "../shared/SearchBar";
+import ServiceList from "../services/ServiceList";
 
 const Home = () => {
   return (
@@ -25,14 +27,24 @@ const Home = () => {
             ptatum nesciunt, deserunt distinctio optio ipsam animi rerum.
           </p>
         </div>
-        <div className="right">
+        <div className="mainright">
           <div className="right-content">
             <img src={heroImg01} alt="" />
-            <video src={herovdo}></video>
-            <img src={heroImg02} alt="" />
+            <video src={herovdo} style={{position:'relative',top:'25px'}} autoPlay loop muted></video>
+            <img src={heroImg02} style={{position:'relative',top:'55px'}} alt="" />
           </div>
         </div>
       </div>
+      <SearchBar/>
+      <section>
+        <div className="section">
+          <div className="section1">
+            <h5>What we serve</h5>
+            <h2>We offer our best services</h2>
+          </div>
+          <ServiceList/>
+        </div>
+      </section>
     </div>
   );
 };

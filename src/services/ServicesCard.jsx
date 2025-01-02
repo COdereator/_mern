@@ -8,9 +8,9 @@ const ServicesCard = ({item}) =>{
     return(
         <div className='service_item'>
             <div className="service_img">
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} height={30} width={30} alt="" />
             </div>
-            <h5>{title}</h5>
+            <h4>{title}</h4>
             <p>{desc}</p>
         </div>
     );

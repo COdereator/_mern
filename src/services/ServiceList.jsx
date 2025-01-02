@@ -2,7 +2,7 @@ import ServicesCard from "./ServicesCard";
 import weatherImg from '../images/weather.png'
 import guideImg from '../images/guide.png'
 import customizationImg from '../images/customization.png'
-
+import './service-card.css'
 const ServiceList = () => {
 
     const serviceData = [
@@ -27,9 +27,11 @@ const ServiceList = () => {
         <>
             {
                 serviceData.map((item,index)=>{
-                    <div className="section1" key={index}>
-                        <ServicesCard item= { item }/>
-                    </div>
+                    return (
+                        <div className="section2" key={index}>
+                            <ServicesCard item= { item }/>
+                        </div>
+                    )
                 })
             }
         </>

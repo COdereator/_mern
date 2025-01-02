@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
 .hero{
-  height: 70vh;
+  height: auto;
   width: 100%;
   /* background-color: red; */
-  position: relative;
 }
 .main {
   width: 80%;
+  position: relative;
   margin: 40px auto;
   display: flex; 
   /* border: 1px solid black; */
@@ -51,12 +52,21 @@ video {
   object-fit: cover;
   border: 1px solid #fe9f40;
 }
-section{
-  width: 100%;
-}
 .section{
   width: 80%;
-  height: 200px;
-  background-color: #fe9f40;
+  height: 300px;
+  /* background-color: rebeccapurple; */
+  display: flex;
   margin: auto;
+}
+.section1 h5{
+  color: #ee3e3e;
+  font-family: "Lucida Calligraphy";
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+.section1 h2{
+  font-size: 2rem;
+  font-weight: 500;
 }

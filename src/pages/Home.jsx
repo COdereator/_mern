@@ -36,15 +36,13 @@ const Home = () => {
         </div>
       </div>
       <SearchBar/>
-      <section>
-        <div className="section">
-          <div className="section1">
-            <h5>What we serve</h5>
-            <h2>We offer our best services</h2>
-          </div>
-          <ServiceList/>
+      <div className="section">
+        <div className="section1">
+          <h5>What we serve</h5>
+          <h2>We offer our best services</h2>
         </div>
-      </section>
+        <ServiceList/>
+      </div>
     </div>
   );
 };

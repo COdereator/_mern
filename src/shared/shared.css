@@ -1,9 +1,10 @@
 h3 {
-  background-color: #fe9f40;
+  background-color: #FE9F40;
   padding: 10px 25px;
   border-radius: 25px;
   font-family: Lucida Calligraphy;
   font-size: .7rem;
+  display:inline-block;
 }
 .searchBar{
   width: 50%;

@@ -7,6 +7,7 @@ import worldImg from "../images/world.png";
 import Subtitle from "../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 
 const Home = () => {
   return (
@@ -42,6 +43,13 @@ const Home = () => {
           <h2>We offer our best services</h2>
         </div>
         <ServiceList/>
+      </div>
+      <div class="section" style={{display:"block"}}>
+        <Subtitle subtitle="Explore"/>
+        <h2 style={{fontSize:'1.8rem',fontWeight:'500',margin:'5px 0px'}}>Our Featured Tours</h2>
+        <div className="grid-contianer">
+          <FeaturedTourList/>
+        </div>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const Tours = () => {
 
   return <>
     <CommonSection title = {"All Tours"}/>
-    <div className="section" style={{height:'100px',marginBottom:'0px'}}>
+    <div className="section" style={{height:'120px',marginBottom:'0px'}}>
       <SearchBar/>
     </div>
     <div className="section" style={{marginTop:'0px',display:'block'}}>

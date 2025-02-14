@@ -152,7 +152,7 @@ const TourDetails = () => {
         </div>
 
         <div className="details_right">
-          <Booking tour={tour} />
+          <Booking tour={tour} avgRating={avgRating} />
         </div>
       </div>
     </section>

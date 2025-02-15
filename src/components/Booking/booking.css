@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 .booking {
   height: 52%;
   width: 85%;
@@ -96,16 +97,17 @@
   flex-direction: column;
   gap: 10px;
 }
-.thank i{
+.thank i {
   font-size: 2.7rem;
   color: green;
 }
-.thank h1{
+.thank h1 {
   font-weight: 500;
   font-size: 3rem;
-  font-family: Script MT;
+  font-family: "Eater";
+  text-shadow: 2px 2px 3px black;
 }
-.thank h2{
+.thank h2 {
   font-weight: 500;
 }
 .thank button {
